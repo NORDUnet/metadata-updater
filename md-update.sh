@@ -26,7 +26,7 @@ if [ -z "$URL" ] || [ -z "OUT" ]; then
 fi
 
 log() {
-  if [ -z "$QUIEt" ];then
+  if [ -z "$QUIET" ];then
     echo $1
   fi
 }
