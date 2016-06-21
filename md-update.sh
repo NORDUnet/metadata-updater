@@ -56,6 +56,7 @@ if [ $? -eq 0 ]; then
 
   log "Copying new file to $OUT"
   cp $TMP $OUT
+  chmod +r $OUT
 fi
 
 cleanup $TMP
